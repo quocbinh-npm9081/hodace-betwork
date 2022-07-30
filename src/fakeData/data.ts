@@ -101,7 +101,7 @@ export const fakeData: Bds[] = [{
     typeNew: "advertise"
 }, {
     st: 13,
-    id: 137934,
+    id: 13794,
     title: "Căn hộ chung cư 4 phòng ngủ TimeCity",
     status: "is_showing",
     lifeTime: "month",
@@ -109,7 +109,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 14,
-    id: 141297,
+    id: 14127,
     title: "Rao bán căn hộ chung cư 4 phòng ngủ Gold",
     status: "is_showing",
     lifeTime: "week",
@@ -117,7 +117,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 15,
-    id: 150985,
+    id: 15985,
     title: "Rao bán căn hộ chung cư 4 phòng ngủ Gold",
     status: "deleted",
     lifeTime: "expired",
@@ -133,7 +133,7 @@ export const fakeData: Bds[] = [{
     typeNew: "advertise"
 }, {
     st: 17,
-    id: 171276,
+    id: 17176,
     title: "Rao bán căn hộ chung cư 4 phòng ngủ Gold",
     status: "expired",
     lifeTime: "expired",
@@ -141,7 +141,7 @@ export const fakeData: Bds[] = [{
     typeNew: "advertise"
 }, {
     st: 18,
-    id: 182115,
+    id: 18215,
     title: "Căn hộ chung cư 4 phòng ngủ TimeCity",
     status: "expired",
     lifeTime: "expired",
@@ -149,7 +149,7 @@ export const fakeData: Bds[] = [{
     typeNew: "advertise"
 }, {
     st: 19,
-    id: 197897,
+    id: 19897,
     title: "Rao bán căn hộ chung cư 4 phòng ngủ Gold",
     status: "expired",
     lifeTime: "expired",
@@ -165,7 +165,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 21,
-    id: 1243464,
+    id: 12464,
     title: "Căn hộ chung cư 3 phòng ngủ tòa Landa",
     status: "expired",
     lifeTime: "expired",
@@ -174,7 +174,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 22,
-    id: 204974,
+    id: 24974,
     title: "Căn hộ chung cư 1 phòng ngủ tòa N03-7T Ngoại thành Hà Nội",
     status: "expired",
     lifeTime: "expired",
@@ -182,7 +182,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 23,
-    id: 6873468,
+    id: 3468,
     title: "Căn hộ sinh vien Ngoại thành Hà Nội",
     status: "expired",
     lifeTime: "expired",
@@ -190,7 +190,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 24,
-    id: 1110967,
+    id: 16767,
     title: "Căn hộ chung cư 2 phòng ngủ tòa VinCome Ngoại thành Hà Nội",
     status: "expired",
     lifeTime: "expired",
@@ -198,7 +198,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 25,
-    id: 1242364,
+    id: 12464,
     title: "Căn hộ chung cư 3 phòng ngủ tòa Landa",
     status: "expired",
     lifeTime: "expired",
@@ -207,7 +207,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 26,
-    id: 2023974,
+    id: 20234,
     title: "Căn hộ chung cư 1 phòng ngủ tòa N03-7T Ngoại thành Hà Nội",
     status: "expired",
     lifeTime: "expired",
@@ -215,7 +215,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 27,
-    id: 613768,
+    id: 61368,
     title: "Căn hộ sinh vien Ngoại thành Hà Nội",
     status: "expired",
     lifeTime: "expired",
@@ -223,7 +223,7 @@ export const fakeData: Bds[] = [{
     typeNew: "normal"
 }, {
     st: 28,
-    id: 1123167,
+    id: 11267,
     title: "Căn hộ chung cư 2 phòng ngủ tòa VinCome Ngoại thành Hà Nội",
     status: "expired",
     lifeTime: "expired",
