@@ -130,27 +130,27 @@ const TableControl: React.FC = () => {
                         <thead>
                             <tr>
                                 <th
-                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider w-5">
+                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider">
                                     #
                                 </th>
                                 <th
-                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider w-5">
+                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider">
                                     ID
                                 </th>
                                 <th
-                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider w-40">
+                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider">
                                     Tiêu đề
                                 </th>
                                 <th
-                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider w-16">
+                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider">
                                     Trạng thái
                                 </th>
                                 <th
-                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider w-16">
+                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider">
                                     Loại tin
                                 </th>
                                 <th
-                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider w-16">
+                                    className="px-2 py-3 border-b-2 border-gray-200 text-left text-xs font-semibold text-gray-600 tracking-wider">
                                     Thời hạn
                                 </th>
                                 <th
@@ -164,11 +164,11 @@ const TableControl: React.FC = () => {
                                 dataItems ? (
                                     <>{
                                         dataItems.map((item, index) => (
-                                            <tr className='hover:bg-gray-100' key={item.id}>
-                                                <td className="px-2 py-5 text-xs rounded-l-full">
+                                            <tr className='hover:bg-orange-50 hover:shadow-md rounded-full' key={item.id}>
+                                                <td className="px-2 py-5 text-xs rounded-l-2xl">
                                                     <div className="flex items-center">
                                                         <div className="ml-3">
-                                                            <p className="text-gray-900 font-bold truncate  w-5">
+                                                            <p className="text-gray-900 font-bold truncate w-5">
                                                                 {item.st}
                                                             </p>
                                                         </div>
@@ -188,7 +188,7 @@ const TableControl: React.FC = () => {
                                                         <span
                                                             className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
                                                             <span aria-hidden
-                                                                className="absolute inset-0  bg-lime-100 rounded-full"></span>
+                                                                className="absolute inset-0 bg-lime-100 rounded-full"></span>
                                                             <span className="relative whitespace-nowrap ">
                                                                 Đang hiển thị
                                                             </span>
@@ -243,7 +243,7 @@ const TableControl: React.FC = () => {
                                                         }
                                                     </span>
                                                 </td>
-                                                <td className="px-5 py-5 flex items-center justify-between text-xs rounded-r-full space-x-1">
+                                                <td className="px-5 py-5 flex items-center justify-between text-xs rounded-r-2xl space-x-1">
                                                     <div className="relative group">
                                                         <button className="bg-blue-500 hover:bg-blue-700 block text-white text-xs py-1 px-4 w-full rounded-full whitespace-nowrap">
                                                             Gia hạn
