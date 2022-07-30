@@ -36,7 +36,7 @@ const TableControl: React.FC = () => {
 
 
 
-    return <div className="mx-auto px-4 sm:px-8">
+    return <div className="mx-auto px-4 sm:px-8 w-full">
         <div className="py-8">
             <div className="my-2 flex  flex-col">
                 <div className="mb-1 sm:mb-0 space-y-3">
@@ -177,7 +177,7 @@ const TableControl: React.FC = () => {
                                                 <td className="px-2 py-5 text-xs w-5">
                                                     <p className="text-gray-900 truncate ">{item.id}</p>
                                                 </td>
-                                                <td className="px-2 py-5 text-xs w-36">
+                                                <td className="px-2 py-5 text-xs w-44">
                                                     <p className="text-gray-900 w-40 truncate ...">
                                                         {item.title}
                                                     </p>
@@ -296,7 +296,7 @@ const TableControl: React.FC = () => {
                                             <Skeleton width={64} />
                                         </td>
                                         <td className="px-5 py-5 text-xs ">
-                                            <Skeleton width={140} />
+                                            <Skeleton width={176} />
                                         </td>
                                         <td className="px-5 py-5 text-xs">
                                             <Skeleton width={64} />
