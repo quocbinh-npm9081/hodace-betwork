@@ -12,8 +12,8 @@ const Header: React.FC = () => {
                 />
             </div>
             <div className='basis-4/12  padding-r-10per text-end leading-3	'>
-                <div className='uppercase inline-flex'> <span className='font-bold tracking-wider text-xl	'>hodace</span>  <span className='bg-blue-500 text-white p-1 text-sm tracking-wider'>network</span></div>
-                <div className="text-xs font-normal	">Giải pháp toàn viện cho dữ liệu BDS</div>
+                <div className='uppercase inline-flex space-x-2'> <span className='font-bold tracking-widest text-xl'>hodace</span>  <span className='bg-blue-500 text-white p-1 text-sm tracking-widest'>network</span></div>
+                <div className="text-xxsm font-medium py-1 tracking-tight">Giải pháp toàn viện cho dữ liệu BDS</div>
             </div>
             <div className="flex items-center basis-4/12 justify-end space-x-6">
                 <div className="relative">
