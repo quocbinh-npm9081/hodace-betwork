@@ -165,20 +165,20 @@ const TableControl: React.FC = () => {
                                     <>{
                                         dataItems.map((item, index) => (
                                             <tr className='hover:bg-gray-100' key={item.id}>
-                                                <td className="px-2 py-5 text-xs rounded-l-full w-5">
+                                                <td className="px-2 py-5 text-xs rounded-l-full">
                                                     <div className="flex items-center">
                                                         <div className="ml-3">
-                                                            <p className="text-gray-900 font-bold truncate">
+                                                            <p className="text-gray-900 font-bold truncate  w-5">
                                                                 {item.st}
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </td>
-                                                <td className="px-2 py-5 text-xs w-5">
-                                                    <p className="text-gray-900 truncate ">{item.id}</p>
+                                                <td className="px-2 py-5 text-xs ">
+                                                    <p className="text-gray-900 truncate w-10 ">{item.id}</p>
                                                 </td>
-                                                <td className="px-2 py-5 text-xs w-44">
-                                                    <p className="text-gray-900 w-40 truncate ...">
+                                                <td className="px-2 py-5 text-xs">
+                                                    <p className="text-gray-900 w-52 truncate ...">
                                                         {item.title}
                                                     </p>
                                                 </td>
