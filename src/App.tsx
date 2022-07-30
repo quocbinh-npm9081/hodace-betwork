@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from 'react';
+import Header from './component/Header';
+import BackgroundMain from './component/BackgroundMain';
+import Dashboard from './component/Dashboard';
+import { fakeData } from './fakeData/data'
+import { Context } from './component/Context'
+import { Bds } from './type'
 function App() {
+
+
+  const [data, setData] = useState<Bds[]>(fakeData);
+  const [dataItems, setDataItems] = useState<any[]>();
+  const [offset, setOffset] = useState(1);
+  const [perPage] = useState(4);
+  const [pageCount, setPageCount] = useState(0)
+  // const [currentPage, setCurrentPage] = useState(1);
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Context.Provider value={{ data, offset, perPage, pageCount, setData, setDataItems, setOffset, setPageCount, dataItems }}>
+      <div className='container' >
+        <Header />
+        <BackgroundMain />
+        <Dashboard />
+      </div>
+    </Context.Provider>
   );
 }
 
