@@ -19,11 +19,11 @@ function App() {
 
   return (
     <Context.Provider value={{ data, offset, perPage, pageCount, setData, setDataItems, setOffset, setPageCount, dataItems }}>
-      <div>
+      <>
         <Header />
         <BackgroundMain />
         <Dashboard />
-      </div>
+      </>
     </Context.Provider>
   );
 }
