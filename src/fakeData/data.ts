@@ -197,7 +197,7 @@ export const fakeData: Bds[] = [{
     deadline: 2,
     typeNew: "normal"
 }, {
-    st: 21,
+    st: 25,
     id: 1242364,
     title: "Căn hộ chung cư 3 phòng ngủ tòa Landa",
     status: "expired",
@@ -206,7 +206,7 @@ export const fakeData: Bds[] = [{
 
     typeNew: "normal"
 }, {
-    st: 22,
+    st: 26,
     id: 2023974,
     title: "Căn hộ chung cư 1 phòng ngủ tòa N03-7T Ngoại thành Hà Nội",
     status: "expired",
@@ -214,7 +214,7 @@ export const fakeData: Bds[] = [{
     deadline: 2,
     typeNew: "normal"
 }, {
-    st: 23,
+    st: 27,
     id: 613768,
     title: "Căn hộ sinh vien Ngoại thành Hà Nội",
     status: "expired",
@@ -222,7 +222,7 @@ export const fakeData: Bds[] = [{
     deadline: 2,
     typeNew: "normal"
 }, {
-    st: 24,
+    st: 28,
     id: 1123167,
     title: "Căn hộ chung cư 2 phòng ngủ tòa VinCome Ngoại thành Hà Nội",
     status: "expired",
